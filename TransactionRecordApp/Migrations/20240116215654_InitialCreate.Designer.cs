@@ -12,8 +12,8 @@ using TransactionRecordApp.Models;
 namespace TransactionRecordApp.Migrations
 {
     [DbContext(typeof(TransactionContext))]
-    [Migration("20231202031104_AddingIdentityTables")]
-    partial class AddingIdentityTables
+    [Migration("20240116215654_InitialCreate")]
+    partial class InitialCreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
