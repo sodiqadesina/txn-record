@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "serviceConnectorResourceId": "/subscriptions/[parameters('subscriptionId')]/resourcegroups/[parameters('resourceGroupName')]/providers/Microsoft.Web/sites/TransactionRecordApp20240116203932/providers/Microsoft.ServiceLinker/linkers/TransactionsDb_45480711BA",
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/invoicemanagementdb/databases/InvoiceManagement-WebApplication",
+      "type": "mssql.azure",
+      "connectionId": "TransactionsDb",
+      "dynamicId": null
+    }
+  }
+}
